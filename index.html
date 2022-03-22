@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: antiquewhite">
+    <h1>Brian Tillman's Homework</h1>
+    <div style="display: flex">
+      <div
+        class="bubble-sort"
+        style="border: 1px solid black; padding: 15px; background-color: white"
+      >
+        <h2 style="text-align: center">Bubble Sort</h2>
+        <p>
+          How many numbers would you like in your array? Click
+          <span id="bubble-button" style="color: blue">here</span> to set.
+        </p>
+
+        <p id="user-bubble-input"></p>
+        <p id="random-bubble-array"></p>
+        <div id="show-bubble" style="display: none">
+          <p>Want to perform a bubble sort? Click the button.</p>
+          <button id="bubble-sort-button">Sort me, I DARE YOU</button>
+          <p id="sorted-bubble"></p>
+        </div>
+      </div>
+
+      <div
+        class="selection-sort"
+        style="
+          border: 1px solid blue;
+          padding: 15px;
+          margin-left: 50px;
+          background-color: white;
+        "
+      >
+        <h2 style="text-align: center">Selection Sort</h2>
+        <p>
+          How many numbers would you like in your array? Click
+          <span id="selection-button" style="color: blue">here</span> to set.
+        </p>
+
+        <p id="user-selection-input"></p>
+        <p id="random-selection-array"></p>
+        <div id="show-sort" style="display: none">
+          <p>Want to perform a bubble sort? Click the button.</p>
+          <button id="selection-sort-button">Sort me, I DARE YOU</button>
+          <p id="sorted-selection"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
