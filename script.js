@@ -76,7 +76,7 @@ let mySelectionArray = [];
 bubbleButton.addEventListener("click", () => {
   let numberInput = prompt("Type your number here");
   let parsedNumber = parseInt(numberInput);
-  let randomArray = Array(parsedNumber) // array size is 10
+  let randomArray = Array(parsedNumber)
     .fill()
     .map(() => Math.floor(50 * Math.random())); // numbers from 0-50 (will not exceed 50)
 
@@ -101,7 +101,7 @@ bubbleSortButton.addEventListener("click", () => {
 selectionButton.addEventListener("click", () => {
   let selectionNumberInput = prompt("Type your number here");
   let selectionParsedNumber = parseInt(selectionNumberInput);
-  let randomSelectionArray = Array(selectionParsedNumber) // array size is 10
+  let randomSelectionArray = Array(selectionParsedNumber)
     .fill()
     .map(() => Math.floor(50 * Math.random())); // numbers from 0-50 (will not exceed 50)
 
