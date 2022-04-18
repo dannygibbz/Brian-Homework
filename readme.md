@@ -1,1 +1,1 @@
-This repo was built to help my cousin understand bubble and selection sorts for his college CS assignment. Built a very basic front-end so he could visualize the code.
+This repo was built to help my cousin understand bubble and selection sorts for his college CS assignment. Built a very basic front-end and pushed it to GH Pages so he could visualize the code. https://dannygibbz.github.io/Brian-Homework/.
